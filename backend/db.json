@@ -10,5 +10,25 @@
       "price": "200",
       "id": 2
     }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "name": "João",
+      "email": "jvkm2001@gmail.com",
+      "password": "jvkm2001jvkm"
+    },
+    {
+      "name": "joao",
+      "email": "dasa",
+      "password": "dasad",
+      "id": 2
+    },
+    {
+      "name": "verio do forma",
+      "email": "dasa",
+      "password": "dasad",
+      "id": 3
+    }
   ]
 }

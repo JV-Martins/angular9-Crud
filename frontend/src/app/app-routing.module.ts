@@ -1,3 +1,4 @@
+import { AccountCreateComponent } from './components/account/account-create/account-create.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path:"account",
     component: AccountComponent
+  },
+  {
+    path:"account/create",
+    component:AccountCreateComponent
   }
 ];
 

@@ -28,6 +28,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { AccountComponent } from './views/account/account.component';
+import { AccountCreateComponent } from './components/account/account-create/account-create.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { AccountComponent } from './views/account/account.component';
     ProductCreateComponent,
     ProductReadComponent,
     ProductRead2Component,
-    AccountComponent
+    AccountComponent,
+    AccountCreateComponent
   ],
   imports: [
     BrowserModule,

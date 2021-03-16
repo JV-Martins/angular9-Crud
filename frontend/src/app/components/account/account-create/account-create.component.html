@@ -1,0 +1,22 @@
+<mat-card>
+    <mat-card-title>New account</mat-card-title>
+    <form>
+        <mat-form-field>
+             <input matInput placeholder="Name" [(ngModel)]="account.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input type="email" matInput placeholder="Email" [(ngModel)]="account.email" name="email">
+        </mat-form-field>
+        <mat-form-field>
+            <input type="password"matInput placeholder="Password" [(ngModel)]="account.password" name="password">
+        </mat-form-field>
+    </form>
+    <button class="button" mat-raised-button 
+            (click)="createAccount()" color="primary">
+        Save
+    </button>
+    <button class="button" mat-raised-button 
+            (click)="cancel()" color="warn">
+        Cancel
+    </button>
+</mat-card>
