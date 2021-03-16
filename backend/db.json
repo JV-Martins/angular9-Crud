@@ -1,10 +1,14 @@
 {
-    "products":[
-        {
-            "id":1,
-            "name":"Caneta",
-            "price":5.89
-        }
-    ]
-
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta",
+      "price": 5.89
+    },
+    {
+      "name": "chuteira",
+      "price": "200",
+      "id": 2
+    }
+  ]
 }
