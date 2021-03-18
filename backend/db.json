@@ -9,6 +9,11 @@
       "name": "chuteira",
       "price": "200",
       "id": 2
+    },
+    {
+      "name": "verio do forma",
+      "price": "adasdas",
+      "id": 3
     }
   ],
   "accounts": [
@@ -29,6 +34,18 @@
       "email": "dasa",
       "password": "dasad",
       "id": 3
+    },
+    {
+      "name": "verio do forma",
+      "email": "dasa",
+      "password": "dasad",
+      "id": 4
+    },
+    {
+      "name": "leonardo",
+      "email": "leo@gmail.com",
+      "password": "dasad",
+      "id": 5
     }
   ]
 }
