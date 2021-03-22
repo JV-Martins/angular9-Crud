@@ -1,11 +1,5 @@
 {
-  "products": [
-    {
-      "name": "verio do forma",
-      "price": "100",
-      "id": 1
-    }
-  ],
+  "products": [],
   "accounts": [
     {
       "id": 1,

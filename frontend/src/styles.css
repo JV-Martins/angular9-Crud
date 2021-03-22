@@ -5,7 +5,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
 .red {
-    color: firebrick;
+    color: #b22222;
 }
 
 .v-middle{
@@ -14,5 +14,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .msg-success{
     background-color: #29af29;
+    color: #fff;
+}
+
+.msg-error{
+    background-color: #b22222;
     color: #fff;
 }
