@@ -1,19 +1,9 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta",
-      "price": 5.89
-    },
-    {
-      "name": "chuteira",
-      "price": "200",
-      "id": 2
-    },
-    {
       "name": "verio do forma",
-      "price": "adasdas",
-      "id": 3
+      "price": "100",
+      "id": 1
     }
   ],
   "accounts": [
@@ -46,6 +36,18 @@
       "email": "leo@gmail.com",
       "password": "dasad",
       "id": 5
+    },
+    {
+      "name": "João Victor",
+      "email": "jvkm2001@gmail.com",
+      "password": "jvkm2001",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 7
     }
   ]
 }

@@ -23,12 +23,11 @@ import { FormsModule} from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
-import { ProductRead2Component } from './components/product/product-read2/product-read2.component';
 import { MatTableModule } from '@angular/material/table';
-import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatSortModule } from '@angular/material/sort';
 import { AccountComponent } from './views/account/account.component';
 import { AccountCreateComponent } from './components/account/account-create/account-create.component';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
 @NgModule({
   declarations: [
@@ -41,9 +40,10 @@ import { AccountCreateComponent } from './components/account/account-create/acco
     ForDirective,
     ProductCreateComponent,
     ProductReadComponent,
-    ProductRead2Component,
     AccountComponent,
-    AccountCreateComponent
+    AccountCreateComponent,
+    ProductUpdateComponent,
+    ProductDeleteComponent
   ],
   imports: [
     BrowserModule,
@@ -60,8 +60,6 @@ import { AccountCreateComponent } from './components/account/account-create/acco
     MatFormFieldModule,
     MatInputModule,
     MatTableModule,
-    MatPaginatorModule,
-    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]

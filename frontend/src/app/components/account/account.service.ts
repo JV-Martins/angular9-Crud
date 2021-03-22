@@ -18,7 +18,8 @@ export class AccountService {
     this.snackBar.open(msg,'X',{
       duration:2000,
       horizontalPosition:"right",
-      verticalPosition: "top"
+      verticalPosition: "top",
+      panelClass: "msg-success"
     })
   }
 
